@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/hiteshdaksh/.nvm/versions/node/v11.10.1/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js start
+
+PATH: 
+  /Users/hiteshdaksh/.nvm/versions/node/v11.10.1/bin:/Applications/anaconda3/bin:/Applications/anaconda3/condabin:/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hiteshdaksh/Web/Bootstrap/Bootstrap4/conFusion/node_modules/.bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  11.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/hiteshdaksh/Web/Bootstrap/Bootstrap4/conFusion/package.json: Unexpected token } in JSON at position 398
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "confusion",
+    "version": "1.0.0",
+    "description": "This is a website for Ristorante Con Fusion",
+    "main": "index.html",
+    "scripts": {
+      "start": "npm run lite",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lite": "lite-server",
+      "scss": "node-sass -o css/ css/"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "lite-server": "^2.3.0",
+  
+    },
+    "dependencies": {
+      "bootstrap": "^4.5.0",
+      "bootstrap-social": "^5.1.1",
+      "font-awesome": "^4.7.0",
+      "jquery": "^3.5.1",
+      "popper.js": "^1.12.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
